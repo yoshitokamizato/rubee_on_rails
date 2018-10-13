@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/users', to: 'users#index'
   get '/yukis', to: 'yukis#index'
   get '/masachikas' to: 'masachikas#index'
-  get '/ikeshimas' to : 'ikeshimas#index'
+  get '/ikeshimas', to: 'ikeshimas#index'
 end
