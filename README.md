@@ -1,32 +1,30 @@
 # README
 アプリの説明
 
-## H2
-見出し2
+ローカルリポジトリで新しくブランチを作成する
 
-|項目|内容|
-|---|---|
-|Ruby|シンプルで読みやすい言語|
+```
+git checkout -b new_branch_name
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ローカルリポジトリの変更内容をインデックスに登録
 
-Things you may want to cover:
+```
+git add .
+```
 
-* Ruby version
+ローカルリポジトリの変更内容を保存
 
-* System dependencies
+```
+git commit -m "commit message"
+```
 
-* Configuration
+ローカルリポジトリの変更内容をリモートリポジトリに反映
 
-* Database creation
+```
+git push origin new_branch_name
+```
 
-* Database initialization
+プルリク
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+マージ
