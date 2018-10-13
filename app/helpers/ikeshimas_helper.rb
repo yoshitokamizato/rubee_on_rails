@@ -1,0 +1,2 @@
+module IkeshimasHelper
+end
